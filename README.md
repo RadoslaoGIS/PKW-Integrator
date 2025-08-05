@@ -65,5 +65,4 @@ pkw_integrator/
 
 ---
 
-📌 **Autor:** [RadoslaoGIS](https://github.com/RadoslaoGIS)
-📌 **Repozytorium GitHub:** [PKW-Integrator](https://github.com/RadoslaoGIS/PKW-Integrator)
+📌 **Autor:** [RadoslaoGIS](https://github.com/RadoslaoGIS), **Repozytorium GitHub:** [PKW-Integrator](https://github.com/RadoslaoGIS/PKW-Integrator)
