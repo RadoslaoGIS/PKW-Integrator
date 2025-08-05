@@ -45,8 +45,8 @@ pkw_integrator/
 
 ## ⚙️ Jak używać?
 
-1. Pobierz arkusz danych (CSV) dla województw, powiatów lub gmin ze **[strony Państwowej Komisji Wyborczej](https://pkw.gov.pl)**
-2. Wskaż lokalizację pobranego pliku w oknie wtyczki
+1. Pobierz arkusz danych wyborczych w formacie .csv dla województw, powiatów lub gmin ze **[strony Państwowej Komisji Wyborczej](https://pkw.gov.pl)**
+2. Wskaż lokalizację pobranego pliku
 3. Wtyczka automatycznie:
    - Rozpozna stopień podziału administracyjnego
    - Zintegruje dane z odpowiednią warstwą shapefile
@@ -56,14 +56,14 @@ pkw_integrator/
 
 ## 📝 Uwagi
 
-- ✅ Wtyczka zgodna z **Qt6**.
-- 🧪 Testowana w wersji **QGIS 3.44.1 'Solothurn'**.
-- 📅 Kompatybilna z arkuszami danych z **wyborów od 2023 roku**.
-- 🔄 W przypadku starszych danych (wybory przeprowadzone przed 2023), wymagane jest dostosowanie kodów TERYT do nowego formatu.
-- 🧮 Po integracji danych dostępne będą **tylko dane liczbowe** z arkusza.
-- 📊 Dalsze analizy (np. obliczenia procentowe kandydatów lub komitetów) należy wykonać samodzielnie — np. za pomocą Pythona lub Kalkulatora pól w QGIS.
+- ✅ Wtyczka zgodna z **Qt6**
+- 🧪 Testowana w wersji **QGIS 3.44.1 'Solothurn'**
+- 📅 Kompatybilna z arkuszami danych z wyborów od 2023 roku
+- 🔄 W przypadku starszych danych (wybory przeprowadzone przed 2023), wymagane jest dostosowanie kodów TERYT do nowego formatu
+- 🧮 Po integracji danych dostępne będą tylko dane liczbowe z arkusza
+- 📊 Dalsze analizy (np. wyniki procentowe kandydatów lub komitetów) należy wykonać samodzielnie, np. za pomocą Pythona lub Kalkulatora pól w QGIS
 
 ---
 
-**Autor:** [RadoslaoGIS](https://github.com/RadoslaoGIS)  
-📌 Repozytorium: [PKW-Integrator](https://github.com/RadoslaoGIS/PKW-Integrator)
+📌 **Autor:** [RadoslaoGIS](https://github.com/RadoslaoGIS)
+📌 **Repozytorium GitHub:** [PKW-Integrator](https://github.com/RadoslaoGIS/PKW-Integrator)
