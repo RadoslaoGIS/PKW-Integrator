@@ -1,4 +1,4 @@
-# Wtyczka QGIS – PKW Integrator
+# Integrator danych PKW
 
 🧩 Wtyczka QGIS do integracji arkuszy danych wyborczych Państwowej Komisji Wyborczej z mapami granic z Państwowego Rejestru Granic (PRG).
 
