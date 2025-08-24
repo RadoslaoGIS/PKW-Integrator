@@ -1,7 +1,0 @@
-[general]
-name=Integrator danych PKW
-description=Wtyczka integruje arkusze danych wyborczych z PKW z mapami granic z PRG
-version=1.0
-qgisMinimumVersion=3.28
-supportsQt6=True
-author=Radosław Kowalski
