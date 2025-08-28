@@ -58,8 +58,6 @@ pkw_integrator/
    - ✅ Zintegruje dane z odpowiednią warstwą shapefile
    - ✅ Wygeneruje nową warstwę z połączonymi danymi
 
----
-
 ## ⚠️ Uwagi
 
 - ✅ Wtyczka zgodna z **Qt6**
@@ -69,6 +67,14 @@ pkw_integrator/
 - 🧮 Po integracji danych dostępne będą tylko dane liczbowe z arkusza
 - 📊 Dalsze analizy (np. wyniki procentowe kandydatów lub komitetów) należy wykonać samodzielnie, np. za pomocą Pythona lub Kalkulatora pól w QGIS
 - 🗺️ Warstwy shapefile z mapami granic administracyjnych pochodzą z Państwowego Rejestru Granic (PRG), mapa granic gmin zawiera dodatkowo granice dzielnic Warszawy
+
+## Wybory 2025 - przykładowy projekt
+
+Folder "Wybory 2025" zawiera przykładowy projekt wykonany w QGIS wraz z warstwami, prezentujący możliwości wtyczki oraz przykłady dalszych operacji, które można wykonywać za pomocą Pythona po integracji danych:
+- Dodawanie i modyfikacja kolumn
+- Obliczanie wyników procentowych
+- Klasyfikacja danych
+- Tworzenie nowych warstw
 
 ---
 
