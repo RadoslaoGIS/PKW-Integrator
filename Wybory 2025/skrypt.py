@@ -57,6 +57,7 @@ for feature in layer.getFeatures():
     layer.changeAttributeValue(feature.id(), layer.fields().indexOf('N_%'), result)
 layer.commitChanges()
 
+# Tworzenie nowych warstw
 from qgis.core import QgsVectorLayer, QgsProject, QgsFeature
 
 src_layer = QgsProject.instance().mapLayersByName("Wybory_gminy")[0]
@@ -88,17 +89,17 @@ for f in src_layer.getFeatures():
     n = f["N"]
 
     if t is not None and n is not None:
-        if t > n:  # Trzaskowski wygrał
+        if t > n:
             ft = QgsFeature(t_layer.fields())
             ft.setGeometry(f.geometry())
             ft.setAttributes(f.attributes())
             feats_t.append(ft)
-        elif n > t:  # Nawrocki wygrał
+        elif n > t:
             fn = QgsFeature(n_layer.fields())
             fn.setGeometry(f.geometry())
             fn.setAttributes(f.attributes())
             feats_n.append(fn)
-        else:  # remis
+        else:
             fr = QgsFeature(r_layer.fields())
             fr.setGeometry(f.geometry())
             fr.setAttributes(f.attributes())
