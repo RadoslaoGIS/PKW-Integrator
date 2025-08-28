@@ -57,7 +57,7 @@ for feature in layer.getFeatures():
     layer.changeAttributeValue(feature.id(), layer.fields().indexOf('N_%'), result)
 layer.commitChanges()
 
-# Tworzenie nowych warstw
+# Podział gmin i tworzenie nowych warstw
 from qgis.core import QgsVectorLayer, QgsProject, QgsFeature
 
 src_layer = QgsProject.instance().mapLayersByName("Wybory_gminy")[0]
